@@ -1,0 +1,10 @@
+namespace Bugity.Api.Models
+{
+    public class BaseItem
+    {
+        public int Id { get; set; }
+        public DateTime Created { get; set; }
+
+        public DateTime Modified { get; set; }
+    }
+}
